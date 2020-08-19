@@ -1,0 +1,57 @@
+.profile-modal-container {
+  width: 600px;
+  max-width: calc(100% - 20px);
+  .fs-modal-body {
+    padding: 30px 110px 60px;
+    .avatar-name {
+      display: flex;
+      align-items: center;
+      margin-bottom: 41px;
+      > img {
+        margin-right: 30px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+      }
+      > .name-sightings {
+        display: flex;
+        flex-direction: column;
+        .name {
+          font-family: Ubuntu;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 25px;
+        }
+        .sightings {
+          font-family: Ubuntu;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 13px;
+          color: #949EA0;
+          margin-top: 6px;
+        }
+      }
+    }
+    > label {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 10px;
+      color: #949EA0;
+      margin-bottom: 15px;
+    }
+    > p {
+      font-family: Ubuntu;
+      font-size: 18px;
+      line-height: 13px;
+      margin-bottom: 31px;
+    }
+    .fs-button {
+      margin: 40px auto 0;
+      display: block;
+    }
+  }
+}

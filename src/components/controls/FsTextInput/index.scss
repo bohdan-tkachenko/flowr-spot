@@ -1,0 +1,22 @@
+.fs-text-input-container {
+  background: #F5F6F7;
+  border: 1px solid #DFE5EA;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 11px 15px;
+  > label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  > input {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    color: #334144;
+    border: 0;
+    background: transparent;
+    width: 100%;
+  }
+}

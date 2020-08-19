@@ -1,0 +1,13 @@
+.register-modal-container {
+  width: 440px;
+  max-width: calc(100% - 20px);
+  .name {
+    display: flex;
+    > div {
+      flex: 1;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}
